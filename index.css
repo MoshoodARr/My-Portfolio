@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/portfolio-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+.container{
+    background-color: #6d6d7e; 
+    color: #e0e0e0;
+    max-width: 800px;
+    margin: 0 auto;
+    /* border: 3px solid saddlebrown; */
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .toggle-button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .project, .tech-stack {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+header {
+    background: #23325c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.profile-image {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 3px solid #00a8cc;
+}
+
+.profile-image:hover{
+    background-image: url("images/Moshood\ NSE.jpg");
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #00a8cc;
+    text-decoration: none;
+}
+.toggle-button {
+    background: #00a8cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.toggle-button:hover{
+    background: #b9d2d8;
+    color: #383f41;
+    box-shadow: 0px 0px 15px rgba(0, 168, 204, 0.5);
+    padding: 12px 17px;
+}
+section {
+    padding: 35px;
+}
+.project, .tech-stack {
+    background: #0f3460;
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 168, 204, 0.5);
+    max-width: 600px;
+    color: #fff;
+}
+footer {
+    background: #16213e;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    border-bottom: 2px solid saddlebrown;
+}
+.light-mode {
+    background-color: #e2e2ec;
+    color: #333;
+}
