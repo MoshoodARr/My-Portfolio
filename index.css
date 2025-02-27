@@ -18,19 +18,17 @@ body {
     max-width: 800px;
     margin: 0 auto;
     /* border: 3px solid saddlebrown; */
-    border-radius: 15px 15px 0px 0px;
+    /* border-radius: 15px 15px 0px 0px; */
     
 }
 
 header {
     background: #23325c;
     color: #fff;
-    padding: 20px;
-    border-radius: 15px 15px 0 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px 0;
+    
 }
 
 .profile-image {
@@ -89,13 +87,22 @@ section {
     max-width: 600px;
     color: #fff;
 }
+
+.tech-stack{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+    h2, p{
+        margin: 30px 0;
+    }
+}
 footer {
     background: #16213e;
     color: #fff;
-    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px 0;
     position: relative;
-    bottom: 0;
-    margin: 0;
     border-bottom: 2px solid saddlebrown;
 }
 .light-mode {
