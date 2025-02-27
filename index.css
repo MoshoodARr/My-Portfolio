@@ -118,7 +118,7 @@ footer {
     }
 
     header {
-        padding: 15px;
+        padding: 10px;
         text-align: center;
         width: 90%;
         max-width: 100%;
@@ -139,7 +139,7 @@ footer {
     }
 
     .toggle-button {
-        width: 90%;
+        width: 75%;
         padding: 12px;
     }
 
